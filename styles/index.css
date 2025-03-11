@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffbeb;
+}
+header{
+    background-color: #f37313;
+    height: 16vh;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.info-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.info-header h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.titulo-receitas{
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #92400e;
+    font-family: 700;
+    text-align: center;
+}
+
+.receitas-principais{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   justify-content: center;
+   justify-self: center;
+}
+
+.card-receita{
+    width: 26%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-receita img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-receita{
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.info-receita h4{
+    color: #b07048;
+    font-weight: 800;
+}
+
+.info-receita p{
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #bcbec0;
+    font-size: 15px;
+}
+
+.icons-info, .info-i{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.info-i i{
+    color: #a5a6a7;
+}
+
+footer{
+    background-color: #92400e;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.footer-info > div{
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 100px;
+}
+
+.footer-info > div > h3{
+    color: white;
+    font-family: 600;
+}
+
+.footer-info > div > p{
+    color: #f7ca4d;
+    font-family: 400;
+}
+
+.copy{
+    color: #f7ca4d;
+    font-family: 400;
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+    position: absolute;
+    bottom: -20; 
+    left: 40%;
+}
