@@ -6,7 +6,52 @@ document.addEventListener('DOMContentLoaded', ()=>{
             titulo: 'Risoto de Cogumelo',
             descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
             tempo: '30 min', 
-            servePessoa: '6 pessoas', 
+            servePessoa: '6 porções', 
+            dificuldade: 'Médio'
+        },
+        {
+            imagem: "./source/receitas/frangoAssado.png", 
+            textoAlternativo: 'Frango assado com ervas', 
+            titulo: 'Frango assado com ervas',
+            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            tempo: '60 min', 
+            servePessoa: '6 porções', 
+            dificuldade: 'Fácil'
+        },
+        {
+            imagem: "./source/receitas/saladaCreprese.png", 
+            textoAlternativo: 'Salada Creprese', 
+            titulo: 'Salada Creprese',
+            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            tempo: '15 min', 
+            servePessoa: '2 porções', 
+            dificuldade: 'Fácil'
+        },
+        {
+            imagem: "./source/receitas/lasanhabolonhesa.png", 
+            textoAlternativo: 'Lasanha à Bolonhesa', 
+            titulo: 'Lasanha à Bolonhesa',
+            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            tempo: '90 min', 
+            servePessoa: '8 porções', 
+            dificuldade: 'Médio'
+        },
+        {
+            imagem: "./source/receitas/bolodeCenoura.png", 
+            textoAlternativo: 'Bolo de cenoura', 
+            titulo: 'Bolo de cenoura',
+            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            tempo: '45 min', 
+            servePessoa: '10 porções', 
+            dificuldade: 'Fácil'
+        },
+        {
+            imagem: "./source/receitas/moquecadePeixe.png", 
+            textoAlternativo: 'Moqueca de Peixe', 
+            titulo: 'Moqueca de Peixe',
+            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            tempo: '50 min', 
+            servePessoa: '4 porções', 
             dificuldade: 'Médio'
         }
     ];
@@ -19,11 +64,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
         Receitas.innerHTML = `
         <img src="${receita.imagem}" alt="${receita.textoAlternativo}">
-        <div class="info-receitas">
-            <h4>${receita.titulo}<h4>
+        <div class="info-receita">
+            <a href=""><h4>${receita.titulo}<h4><a/>
             <p>${receita.descricao}</p>
 
-            <div class="icons-receita">
+            <div class="icons-info">
                 <div class="info-i"> <i class="fa-solid fa-clock"></i> <p>${receita.tempo}</p> </div>
                 <div class="info-i"> <i class="fa-solid fa-users"></i> <p>${receita.servePessoa}</p> </div>
                 <div class="info-i"> <i class="fa-solid fa-hands"></i> <p>${receita.dificuldade}</p> </div>
@@ -35,19 +80,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 })
 
-
-<div class="receitas-principais" id="card-receitas-js">
-<div class="card-receita" id="div-receitas">
-    <img src="./source/receitas/risoto.png" alt="risoto">
-    <div class="info-receita">
-        <h4>Risoto de Cogumelos</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.</p>
-
-        <div class="icons-info">
-            <div class="info-i"><i class="fa-solid fa-clock"></i><p>30 min</p></div>
-            <div class="info-i"><i class="fa-solid fa-users"></i> <p>6 pessoas</p></div>
-            <div class="info-i"><i class="fa-solid fa-hands"></i> <p>Médio</p></div>
-        </div>
-    </div>
-</div>
-</div>
