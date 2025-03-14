@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/risoto.png", 
             textoAlternativo: 'Risoto de Cogumelo', 
             titulo: 'Risoto de Cogumelo',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Um cremoso risoto italiano com cogumelos frescos e parmesão.', 
             tempo: '30 min', 
             servePessoa: '6 porções', 
             dificuldade: 'Médio'
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/frangoAssado.png", 
             textoAlternativo: 'Frango assado com ervas', 
             titulo: 'Frango assado com ervas',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Frango suculento assado com ervas frescas e limão.', 
             tempo: '60 min', 
             servePessoa: '6 porções', 
             dificuldade: 'Fácil'
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/saladaCreprese.png", 
             textoAlternativo: 'Salada Creprese', 
             titulo: 'Salada Creprese',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Salada italiana clássica tomate, mozzarella, e manjerição.', 
             tempo: '15 min', 
             servePessoa: '2 porções', 
             dificuldade: 'Fácil'
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/lasanhabolonhesa.png", 
             textoAlternativo: 'Lasanha à Bolonhesa', 
             titulo: 'Lasanha à Bolonhesa',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Camadas de massa, molho de carne e queijo derretido.', 
             tempo: '90 min', 
             servePessoa: '8 porções', 
             dificuldade: 'Médio'
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/bolodeCenoura.png", 
             textoAlternativo: 'Bolo de cenoura', 
             titulo: 'Bolo de cenoura',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Bolo macio de cenoura com cobertura de chocolate.', 
             tempo: '45 min', 
             servePessoa: '10 porções', 
             dificuldade: 'Fácil'
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             imagem: "./source/receitas/moquecadePeixe.png", 
             textoAlternativo: 'Moqueca de Peixe', 
             titulo: 'Moqueca de Peixe',
-            descricao: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit, sed inventore iste magni amet.', 
+            descricao: 'Prato brasileito com peixe, leite de coco e dendê', 
             tempo: '50 min', 
             servePessoa: '4 porções', 
             dificuldade: 'Médio'
