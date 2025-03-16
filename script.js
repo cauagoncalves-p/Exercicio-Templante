@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         Receitas.innerHTML = `
         <img src="${receita.imagem}" alt="${receita.textoAlternativo}">
         <div class="info-receita">
-            <a href=""><h4>${receita.titulo}<h4><a/>
+            <a href=""><h4>${receita.titulo}</h4><a/>
             <p>${receita.descricao}</p>
 
             <div class="icons-info">
@@ -73,10 +73,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 <div class="info-i"> <i class="fa-solid fa-users"></i> <p>${receita.servePessoa}</p> </div>
                 <div class="info-i"> <i class="fa-solid fa-hands"></i> <p>${receita.dificuldade}</p> </div>
             </div>
-        </div>
-        `;
-
+        </div>`;
         cardReceitas.appendChild(Receitas)
     });
-})
+});
 

@@ -9,14 +9,21 @@
 body{
     background-color: #fffbeb;
 }
+
 header{
+    width: 100%;
     background-color: #f37313;
-    height: 16vh;
+    height: 18vh;
     color: white;
-    padding: 20px 0;
     font-family: 'Inter', sans-serif;
 }
 
+.info{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .info-header{
     display: flex;
     flex-direction: column;
@@ -62,6 +69,7 @@ header{
 }
 
 .info-receita{
+    width: 100%;
     padding: 15px;
     font-family: 'Inter', sans-serif;
 }
