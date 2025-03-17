@@ -7,14 +7,20 @@
     <title>Pagina de receitas</title>
 </head>
 <body>
-    <header><img src="./source/receitas/frangoAssado.png" alt=""></header>
+    <header>
+        <img src="./source/receitas/imagemfundo.png" alt="">
+        <div class="info-header">
+            <h1>Risoto de Cogumelo</h1>
+            <p>Um cremoso risoto italiano com cogumelos frescos e parmesão.</p>
+        </div>  
+    </header>
 
-    <main>
+    <main class="conteudo">
         <div class="div-principal">
             <div class="voltar">
                 <a href="./index.html"><i class="fa-solid fa-arrow-left"></i> Voltar para as receitas</a>
             </div>
-
+        <div class="div-segundaria">
             <div class="card-receita">
                 <div class="info-receita">
                     <div class="info-receitas-icons">
@@ -62,13 +68,52 @@
                     <li>Salsinha picada para finalizar</li>
                 </ul>
             </div>
-        </div>
+        </div>  
+    </div>
+    <div class="card-info">
+        <h3>Informação Nutricional</h3>
+            <div class="info-alimento">
+                <p>Calorias</p>
+                <strong>450 kcal</strong>
+            </div>
+            <hr>
+            <div class="info-alimento">
+                <p>Proteinas</p>
+                <strong>12g</strong>
+            </div>
+            <hr>
+            <div class="info-alimento">
+                <p>Carboidratos</p>
+                <strong>65g</strong>
+            </div>
+            <hr>
+            <div class="info-alimento">
+                <p>Gorduras</p>
+                <strong>15g</strong>
+            </div>
+            <hr>
+            <div class="info-alimento">
+                <p>Fibras</p>
+                <strong>3g</strong>
+            </div>
+    </div>
     </main>
     <footer>
         <div class="footer-info">
-            <div>
-                <h3>Sabores da casa</h3>
-                <p>Receitas para todos os gostos</p>
+            <div class="info-footer">
+                <div>
+                    <h3>Sabores da casa</h3>
+                    <p>Receitas para todos os gostos</p>
+                </div>
+            
+                <div>
+                    <ul class="opcoes-footer">
+                        <li>Receitas</li>
+                        <li>Categorisas</li>
+                        <li>Sobre</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>  
             </div>
         </div>
         <p class="copy">&copy; 2025 Sabores da casa. Todos os diretos reservados.</p>
@@ -77,3 +122,4 @@
     <script src="./receitas.js"></script>
 </body>
 </html>
+

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     const receitas = [
         {
-            imagem: "./source/receitas/risoto.png", 
+            imagem: "./source/receitas/imagemfundo.png", 
             textoAlternativo: 'Risoto de Cogumelo', 
             titulo: 'Risoto de Cogumelo',
             descricao: 'Um cremoso risoto italiano com cogumelos frescos e parmesão.', 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             dificuldade: 'Médio'
         },
         {
-            imagem: "./source/receitas/frangoAssado.png", 
+            imagem: "./source/receitas/imagemfundo.png", 
             textoAlternativo: 'Frango assado com ervas', 
             titulo: 'Frango assado com ervas',
             descricao: 'Frango suculento assado com ervas frescas e limão.', 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             dificuldade: 'Fácil'
         },
         {
-            imagem: "./source/receitas/saladaCreprese.png", 
+            imagem: "./source/receitas/imagemfundo.png", 
             textoAlternativo: 'Salada Creprese', 
             titulo: 'Salada Creprese',
             descricao: 'Salada italiana clássica tomate, mozzarella, e manjerição.', 
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
             servePessoa: '2 porções', 
             dificuldade: 'Fácil'
         },
-        {
-            imagem: "./source/receitas/lasanhabolonhesa.png", 
+        {  
+            imagem: "./source/receitas/imagemfundo.png", 
             textoAlternativo: 'Lasanha à Bolonhesa', 
             titulo: 'Lasanha à Bolonhesa',
             descricao: 'Camadas de massa, molho de carne e queijo derretido.', 
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             dificuldade: 'Médio'
         },
         {
-            imagem: "./source/receitas/bolodeCenoura.png", 
+            imagem: "./source/receitas/imagemfundo.png",  
             textoAlternativo: 'Bolo de cenoura', 
             titulo: 'Bolo de cenoura',
             descricao: 'Bolo macio de cenoura com cobertura de chocolate.', 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             dificuldade: 'Fácil'
         },
         {
-            imagem: "./source/receitas/moquecadePeixe.png", 
+            imagem: "./source/receitas/imagemfundo.png", 
             textoAlternativo: 'Moqueca de Peixe', 
             titulo: 'Moqueca de Peixe',
             descricao: 'Prato brasileito com peixe, leite de coco e dendê', 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         Receitas.innerHTML = `
         <img src="${receita.imagem}" alt="${receita.textoAlternativo}">
         <div class="info-receita">
-            <a href=""><h4>${receita.titulo}</h4><a/>
+            <a href="./paginaReceitas.html"><h4>${receita.titulo}</h4><a/>
             <p>${receita.descricao}</p>
 
             <div class="icons-info">
