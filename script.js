@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
             descricao: 'Um cremoso risoto italiano com cogumelos frescos e parmesão.', 
             tempo: '30 min', 
             servePessoa: '6 porções', 
-            dificuldade: 'Médio'
+            dificuldade: 'Médio',
+            link: "./paginaReceitas.html"
         },
         {
             imagem: "./source/receitas/imagemfundo.png", 
@@ -65,7 +66,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         Receitas.innerHTML = `
         <img src="${receita.imagem}" alt="${receita.textoAlternativo}">
         <div class="info-receita">
-            <a href="./paginaReceitas.html"><h4>${receita.titulo}</h4><a/>
+            <a href="${receita.link}"><h4>${receita.titulo}</h4><a/>
             <p>${receita.descricao}</p>
 
             <div class="icons-info">
