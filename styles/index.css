@@ -1,135 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
-*{
+/* Estilos gerais */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fffbeb;
 }
 
-header{
+header {
     width: 100%;
     background-color: #f37313;
-    height: 18vh;
+    height: 15vh;
     color: white;
     font-family: 'Inter', sans-serif;
+    position: fixed;
+    top: 0;
 }
 
-.info{
+.info {
     height: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.info-header{
+
+.info-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.5;
 }
 
-.info-header h1{
+.info-header h1 {
     font-size: 40px;
     font-weight: 700;
 }
 
-
-.titulo-receitas{
+.titulo-receitas {
     font-size: 25px;
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
     color: #92400e;
-    font-family: 700;
+    font-weight: 700;
     text-align: center;
+    margin-top: 18vh;
 }
 
-.receitas-principais{
+.receitas-principais {
     margin-top: 20px;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-   justify-content: center;
-   justify-self: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.card-receita{
+.card-receita {
     width: 26%;
     background-color: white;
     border-radius: 10px;
 }
 
-.card-receita img{
+.card-receita img {
     width: 100%;
     height: 230px;
     border-radius: 10px 10px 0 0;
 }
 
-.info-receita{
+.info-receita {
     width: 100%;
     padding: 15px;
     font-family: 'Inter', sans-serif;
 }
 
-.info-receita h4{
+.info-receita h4 {
     color: #b07048;
     font-weight: 800;
 }
 
-.info-receita p{
+.info-receita p {
     margin-top: 10px;
     line-height: 1.5;
     color: #bcbec0;
     font-size: 15px;
 }
 
-.info-receita a{
+.info-receita a {
     text-decoration: none;
 }
 
-.icons-info, .info-i{
+.icons-info, .info-i {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     gap: 5px;
 }
 
-.info-i i{
+.info-i i {
     color: #a5a6a7;
 }
 
-footer{
+footer {
     background-color: #92400e;
     padding: 50px;
     margin-top: 20px;
 }
 
-.footer-info > div{
+.footer-info > div {
     width: 80%;
     font-family: 'Inter', sans-serif;
     position: relative;
     left: 100px;
 }
 
-.footer-info > div > h3{
+.footer-info > div > h3 {
     color: white;
-    font-family: 600;
+    font-weight: 600;
 }
 
-.footer-info > div > p{
+.footer-info > div > p {
     color: #f7ca4d;
-    font-family: 400;
+    font-weight: 400;
 }
 
-.copy{
+.copy {
     color: #f7ca4d;
-    font-family: 400;
+    font-weight: 400;
     text-align: center;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     position: absolute;
-    bottom: -20; 
     left: 40%;
+}
+
+/* Media Queries para Responsividade */
+
+/* Telas pequenas (até 768px) */
+@media (max-width: 768px) {
+    .info-header h1 {
+        font-size: 30px;
+    }
+
+    .info-header{
+        text-align: center;
+    }
+
+    .titulo-receitas {
+        font-size: 20px;
+    }
+
+    .receitas-principais {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-receita {
+        width: 90%;
+    }
+
+    .footer-info > div {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .copy {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* Telas médias (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card-receita {
+        width: 45%;
+    }
+
+    .footer-info > div {
+        width: 90%;
+        left: 5%;
+    }
+
+    .copy {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+/* Telas grandes (acima de 1024px) */
+@media (min-width: 1024px) {
+    .card-receita {
+        width: 26%;
+    }
 }

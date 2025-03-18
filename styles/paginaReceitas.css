@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fffbeb;
 }
 
@@ -18,14 +18,14 @@ header {
     position: relative;
 }
 
-header img{
+header img {
     width: 100%;
     height: 70vh;
     object-fit: cover;
     filter: brightness(80%);
 }
 
-.info-header{
+.info-header {
     width: 60%;
     position: absolute;
     bottom: 5%;
@@ -34,19 +34,20 @@ header img{
     flex-direction: column;
 }
 
-.info-header h1{
+.info-header h1 {
     color: white;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
 
-.info-header p{
+.info-header p {
     color: white;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
-.div-principal{
+
+.div-principal {
     margin-top: 20px;
     width: 40%;
     display: flex;
@@ -54,77 +55,77 @@ header img{
     justify-self: center;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
 
-.voltar{
+.voltar {
     display: flex;
     align-items: baseline;
 }
 
-.voltar a{
+.voltar a {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #e38449;
     text-decoration: none;
 }
 
-.voltar a i{
+.voltar a i {
     margin-right: 5px;
 }
 
-.voltar a:hover{
+.voltar a:hover {
     text-decoration: underline;
 }
 
-.div-segundaria{
+.div-segundaria {
     margin-top: 20px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
 }
 
-.card-receita > hr{
+.card-receita > hr {
     margin-top: 10px;
 }
 
-.info-receita{
+.info-receita {
     display: flex;
     gap: 10px;
 }
 
-.info-receitas-icons{
+.info-receitas-icons {
     margin: 10px;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.info-receitas-icons i{
+.info-receitas-icons i {
     color: #eec493;
     margin-right: 5px;
 }
 
-.info-receita p, strong{
+.info-receita p, strong {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 12px;
 }
 
-.info-receita p{
+.info-receita p {
     color: #bcbec0;
 }
 
-.btn-opcao{
+.btn-opcao {
     margin-top: 20px;
     background-color: #f4f4f5;
     border-radius: 5px;
 }
 
-.btn-opcao button{
+.btn-opcao button {
     width: 30%;
     padding: 15px;
     border-radius: 5px;
@@ -132,33 +133,33 @@ header img{
     transition: border ease;
 }
 
-.btn-opcao button:hover{
-    transition: 0.3s ;
+.btn-opcao button:hover {
+    transition: 0.3s;
     background-color: white;
     border: 2px solid black;
 }
 
-.info-ingredientes{
+.info-ingredientes {
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .info-ingredientes ul li, ol li {
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .info-ingredientes ul li::marker {
-    color: #fef3c7; 
+    color: #fef3c7;
     font-size: 1.2rem;
     line-height: 1.5;
 }
 
-.info-ingredientes ol li::marker{
-    color: #92404f; 
+.info-ingredientes ol li::marker {
+    color: #92404f;
     line-height: 2;
 }
 
-.card-info{
+.card-info {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -167,40 +168,41 @@ header img{
     height: 250px;
 }
 
-.info-alimento:nth-of-type(1){
+.info-alimento:nth-of-type(1) {
     margin-top: 15px;
 }
 
-.info-alimento{
+.info-alimento {
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
 }
-.card-info h3{
+
+.card-info h3 {
     font-family: 'Inter', sans-serif;
     color: #92400e;
     font-weight: 700;
 }
 
-.info-alimento p{
+.info-alimento p {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #00000081;
 }
 
-footer{
+footer {
     background-color: #92400e;
     padding: 50px;
     margin-top: 20px;
 }
 
-.info-footer{
+.info-footer {
     display: flex;
     justify-content: space-between;
 }
 
-.opcoes-footer{
+.opcoes-footer {
     display: flex;
     gap: 10px;
     list-style: none;
@@ -209,29 +211,138 @@ footer{
     font-weight: 500;
 }
 
-.footer-info > div{
+.footer-info > div {
     width: 80%;
     font-family: 'Inter', sans-serif;
     position: relative;
     left: 100px;
 }
 
-.info-footer h3{
+.info-footer h3 {
     color: white;
-    font-family: 600;
+    font-weight: 600;
 }
 
-.info-footer p{
+.info-footer p {
     color: #f7ca4d;
-    font-family: 400;
+    font-weight: 400;
 }
 
-.copy{
+.copy {
     color: #f7ca4d;
-    font-family: 400;
+    font-weight: 400;
     text-align: center;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     position: absolute;
-    bottom: -20; 
     left: 40%;
+}
+
+/* Media Queries para Responsividade */
+
+/* Telas pequenas (até 768px) */
+@media (max-width: 768px) {
+    header img {
+        height: 50vh;
+    }
+
+    .info-header {
+        width: 90%;
+        bottom: 10%;
+    }
+
+    .info-header h1 {
+        font-size: 24px;
+    }
+
+    .info-header p {
+        font-size: 14px;
+    }
+
+    .div-principal {
+        width: 90%;
+    }
+
+    .conteudo {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-opcao button {
+        width: 100%;
+    }
+
+    .info-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .opcoes-footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-info > div {
+        width: 100%;
+        left: 0;
+    }
+    .info-footer >div:nth-child(1){
+        margin-bottom:20px ;
+    }
+
+    .copy {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .info-receitas-icons {
+        margin: 10px 0;
+    }
+
+    .info-receita{
+        justify-content: center;
+    }
+}
+
+/* Telas médias (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .info-header {
+        width: 80%;
+    }
+
+    .div-principal {
+        width: 60%;
+    }
+
+    .card-info {
+        width: 30%;
+    }
+
+    .btn-opcao button {
+        width: 45%;
+    }
+
+    .footer-info > div {
+        width: 90%;
+        left: 5%;
+    }
+
+    .copy {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+/* Telas grandes (acima de 1024px) */
+@media (min-width: 1024px) {
+    .card-info {
+        width: 20%;
+    }
 }
